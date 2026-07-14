@@ -1,0 +1,46 @@
+name: inPA Monitor
+
+on:
+  workflow_dispatch:
+
+  schedule:
+    # 08:00 e 20:00 UTC = 10:00 e 22:00 ora italiana (CEST, UTC+2, in estate).
+    # In inverno (ora solare, UTC+1) l'orario reale sara' 09:00/21:00: il
+    # cron di GitHub Actions lavora sempre in UTC e non si adatta da solo
+    # al cambio ora legale/solare.
+    - cron: "0 8,20 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: inpa-monitor
+  cancel-in-progress: false
+
+jobs:
+  monitor:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install -r requirements.txt
+
+      - run: python monitor.py
+        env:
+          BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
+          CHAT_ID: ${{ secrets.CHAT_ID }}
+
+      - name: Save state
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add state.json
+          git diff --cached --quiet || git commit -m "Update state"
+          git push
