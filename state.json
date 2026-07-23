@@ -13,7 +13,7 @@
       ]
     },
     "url": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=6e0a452e4be74b249d597dfc580032ca",
-    "checked": "2026-07-23T08:53:38.794704",
+    "checked": "2026-07-23T20:23:43.566209",
     "consecutive_errors": 0,
     "error_notified": false
   },
@@ -43,7 +43,7 @@
       ]
     },
     "url": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=64051e592a564f5fabce426c0816bb27",
-    "checked": "2026-07-23T08:53:40.579239",
+    "checked": "2026-07-23T20:23:44.782273",
     "consecutive_errors": 0,
     "error_notified": false
   },
@@ -110,7 +110,7 @@
       ]
     },
     "url": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=3be442a291a94827800da7351b3c3afd",
-    "checked": "2026-07-23T08:53:42.127662",
+    "checked": "2026-07-23T20:23:45.815903",
     "consecutive_errors": 0,
     "error_notified": false
   },
@@ -131,7 +131,7 @@
       ]
     },
     "url": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=3565096d8f164fc4a9c0db51ab470321",
-    "checked": "2026-07-23T08:53:43.362860",
+    "checked": "2026-07-23T20:23:46.806850",
     "consecutive_errors": 0,
     "error_notified": false
   },
@@ -143,7 +143,7 @@
       "allegati": []
     },
     "url": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=3a04611f65c747dfaae6537c9324ebf8",
-    "checked": "2026-07-23T08:53:44.774726",
+    "checked": "2026-07-23T20:23:47.645450",
     "consecutive_errors": 0,
     "error_notified": false
   },
@@ -188,7 +188,7 @@
       ]
     },
     "url": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=ce55ceb6dbba48f38ecb0500284a61cc",
-    "checked": "2026-07-23T08:53:46.196853",
+    "checked": "2026-07-23T20:23:48.536968",
     "consecutive_errors": 0,
     "error_notified": false
   },
@@ -215,12 +215,12 @@
       ]
     },
     "url": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=5e6e0ebdf8c245ec898e18452a207576",
-    "checked": "2026-07-23T08:53:47.409975",
+    "checked": "2026-07-23T20:23:49.507975",
     "consecutive_errors": 0,
     "error_notified": false
   },
   "2479a6e7761b48f2be7fa54b3699cb98": {
-    "hash": "25156da06de9c7f5d45c2da88a2a40bb403210b95070d3692763503b7a8ee9cc",
+    "hash": "cd4f718451f66de045920669464ae4ab203d04238a3afc13f07d9cd0bc99eaab",
     "signal": {
       "stato": "Chiuso",
       "aggiornamenti": [
@@ -229,6 +229,7 @@
         "Aggiornamento del 08.07.2026: Pubblicata la delibera n.23 di nomina dei Comitati di vigilanza .",
         "Aggiornamento del 16.01.2026: Pubblicate le FAQ",
         "Aggiornamento del 17.07.2026: Pubblicata la delibera n. 27 di nomina per la Commissione e la delibera n. 29 di nomina dei Comitati di vigilanza .",
+        "Aggiornamento del 23.07.2026: Pubblicati sulla piattaforma Concorsi Smart gli esiti delle prove scritte dei codici concorso INF, ECO e TEC . I candidati possono prenderne visione accedendo alla suddetta piattaforma con le proprie credenziali SPID.",
         "Aggiornamento del 26.06.2026: Le prove scritte dei codici concorso assistenti economici ( codice ECO ), assistenti informatici ( codice INF ) ed assistenti tecnici ( codice TEC ) si svolgeranno il 22 luglio 2026 . Le prove scritte del codice concorso assistenti amministrativi (codice AMM) , si svolgeranno nelle giornate del 24 – 27- 28- 29 – 30 -31 luglio 2026 . A breve sarà pubblicato il calendario completo delle sedi di convocazione.",
         "Aggiornamento del 26.06.2026: Pubblicata, nella sezione allegati, la Delibera n. 14/2026 di nomina dei componenti delle commissioni esaminatrici"
       ],
@@ -247,7 +248,7 @@
       ]
     },
     "url": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=2479a6e7761b48f2be7fa54b3699cb98",
-    "checked": "2026-07-23T08:53:48.907001",
+    "checked": "2026-07-23T20:23:50.515880",
     "consecutive_errors": 0,
     "error_notified": false
   },
@@ -264,7 +265,7 @@
       ]
     },
     "url": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=745992ffeca6489b87088b986f0c04ee",
-    "checked": "2026-07-23T08:53:50.241478",
+    "checked": "2026-07-23T20:23:51.703912",
     "consecutive_errors": 0,
     "error_notified": false
   }
