@@ -13,7 +13,7 @@
       ]
     },
     "url": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=6e0a452e4be74b249d597dfc580032ca",
-    "checked": "2026-08-03T09:06:49.587219",
+    "checked": "2026-08-03T20:31:12.425287",
     "consecutive_errors": 0,
     "error_notified": false
   },
@@ -87,7 +87,7 @@
       ]
     },
     "url": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=64051e592a564f5fabce426c0816bb27",
-    "checked": "2026-08-03T09:06:50.885916",
+    "checked": "2026-08-03T20:31:14.149639",
     "consecutive_errors": 0,
     "error_notified": false
   },
@@ -154,7 +154,7 @@
       ]
     },
     "url": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=3be442a291a94827800da7351b3c3afd",
-    "checked": "2026-08-03T09:06:52.145512",
+    "checked": "2026-08-03T20:31:15.616275",
     "consecutive_errors": 0,
     "error_notified": false
   },
@@ -175,7 +175,7 @@
       ]
     },
     "url": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=3565096d8f164fc4a9c0db51ab470321",
-    "checked": "2026-08-03T09:06:53.436003",
+    "checked": "2026-08-03T20:31:16.951535",
     "consecutive_errors": 0,
     "error_notified": false
   },
@@ -187,7 +187,7 @@
       "allegati": []
     },
     "url": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=3a04611f65c747dfaae6537c9324ebf8",
-    "checked": "2026-08-03T09:06:54.519956",
+    "checked": "2026-08-03T20:31:18.423882",
     "consecutive_errors": 0,
     "error_notified": false
   },
@@ -232,7 +232,7 @@
       ]
     },
     "url": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=ce55ceb6dbba48f38ecb0500284a61cc",
-    "checked": "2026-08-03T09:06:55.788564",
+    "checked": "2026-08-03T20:31:19.921210",
     "consecutive_errors": 0,
     "error_notified": false
   },
@@ -259,17 +259,18 @@
       ]
     },
     "url": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=5e6e0ebdf8c245ec898e18452a207576",
-    "checked": "2026-08-03T09:06:56.910516",
+    "checked": "2026-08-03T20:31:20.995213",
     "consecutive_errors": 0,
     "error_notified": false
   },
   "2479a6e7761b48f2be7fa54b3699cb98": {
-    "hash": "cd4f718451f66de045920669464ae4ab203d04238a3afc13f07d9cd0bc99eaab",
+    "hash": "0dabd7ef5b1900d92772c8987a4edd8929c136e573a07df71e4762b175fdfdb1",
     "signal": {
       "stato": "Chiuso",
       "aggiornamenti": [
         "Aggiornamento del 01.07.2026: Codice AMM-INF-ECO-TEC – Pubblicati, nella sezione allegati, gli avvisi di convocazione e istruzioni delle prove scritte che si terranno dal 22 al 31 luglio p.v., distinti per giornata e profili Pubblicati, nella sezione allegati, la comunicazione per le candidate in stato di gravidanza e/o allattamento e la comunicazione relativa ai cambi sede e ricezione della lettera di partecipazione .",
         "Aggiornamento del 01.07.2026: Pubblicata, nella sezione allegati, la Delibera n. 19/2026 di nomina dei componenti delle commissioni esaminatrici .",
+        "Aggiornamento del 03.08.2026: Pubblicati sulla piattaforma Concorsi Smart gli esiti della prova scritta del codice concorso AMM . I candidati possono prenderne visione accedendo alla suddetta piattaforma con le proprie credenziali SPID.",
         "Aggiornamento del 08.07.2026: Pubblicata la delibera n.23 di nomina dei Comitati di vigilanza .",
         "Aggiornamento del 16.01.2026: Pubblicate le FAQ",
         "Aggiornamento del 17.07.2026: Pubblicata la delibera n. 27 di nomina per la Commissione e la delibera n. 29 di nomina dei Comitati di vigilanza .",
@@ -292,7 +293,7 @@
       ]
     },
     "url": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=2479a6e7761b48f2be7fa54b3699cb98",
-    "checked": "2026-08-03T09:06:58.144360",
+    "checked": "2026-08-03T20:31:22.183521",
     "consecutive_errors": 0,
     "error_notified": false
   },
@@ -309,7 +310,7 @@
       ]
     },
     "url": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=745992ffeca6489b87088b986f0c04ee",
-    "checked": "2026-08-03T09:06:59.271802",
+    "checked": "2026-08-03T20:31:23.667450",
     "consecutive_errors": 0,
     "error_notified": false
   }
