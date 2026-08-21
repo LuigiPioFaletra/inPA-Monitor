@@ -1,15 +1,15 @@
-# Java Update Monitor
+# inPA Monitor
 
-Automatic monitoring of the official Java 8 download page ([java.com](https://www.java.com/en/download/manual.jsp)), with a Telegram notification whenever a new update is published.
+Automatic monitoring of job postings/notices published on the [inPA](https://www.inpa.gov.it/) portal, with Telegram notifications whenever a monitored competition is updated (new notice, new attachment, status change).
 
 ## How it works
 
-On every run, `monitor.py`:
+Each competition of interest is identified by its `concorso_id` (the parameter found in the detail page URL). On every run, `monitor.py`:
 
-1. downloads the official Java 8 manual download page;
-2. extracts the current update number, its release date, and the direct "Windows Offline (64-bit)" download link;
-3. compares the update number against the last one saved in `state.json`;
-4. if it changed, sends a Telegram message with the new version, its release date, the download link, and a reminder about a known installation workaround (see Configuration below); if the page is unreachable for several consecutive runs, sends an error notification (see below).
+1. downloads the detail page for each competition listed in `urls.json`;
+2. extracts only the signals that indicate a real update to the notice ("Aggiornamento del..." blocks, competition status, list of attachments with publication date) — not the entire page, to avoid false alarms caused by page elements unrelated to the notice's actual content;
+3. compares these signals against the last snapshot saved in `state.json`;
+4. if something has changed, sends a Telegram message; if the competition is unreachable for several consecutive runs, sends an error notification (see below).
 
 Execution is automated via GitHub Actions (`.github/workflows/monitor.yml`), twice a day, regardless of whether the local PC is on or off.
 
@@ -17,8 +17,10 @@ Execution is automated via GitHub Actions (`.github/workflows/monitor.yml`), twi
 
 ```
 monitor.py                     # main script
-state.json                     # last detected version (updated automatically)
-requirements.txt               # Python dependencies
+urls.json                      # list of competitions to monitor
+state.json                     # last detected state for each competition (updated automatically)
+heartbeat.json                # heartbeat history (updated automatically)
+requirements.txt                # Python dependencies
 .github/workflows/monitor.yml  # automatic scheduling
 ```
 
@@ -55,35 +57,47 @@ Without these two secrets, the script prints "Telegram non configurato" and send
 
 The workflow runs at 10:00 and 22:00 Italian time (cron `0 8,20 * * *`, calculated for summer daylight saving time UTC+2; in winter the actual local time will be 9:00/21:00, since GitHub Actions always runs in UTC and doesn't automatically adjust for daylight saving changes). It can also be triggered manually from the Actions tab ("Run workflow").
 
-## Configuration
+## Adding or removing a competition
 
-The behavior can be adjusted through a few constants at the top of `monitor.py`:
+Edit `urls.json`, which is a list of objects with this structure:
 
-- `JAVA_URL`: the page being monitored (`https://www.java.com/en/download/manual.jsp` by default);
-- `ERROR_NOTIFY_THRESHOLD`: number of consecutive failed checks before an error notification is sent;
-- `HEARTBEAT_DAYS`: how often the heartbeat notification is sent;
-- `TEMP_REMINDER`: the text appended to every update notification. It currently reminds to move `TEMP`/`TMP` to `C:\Temp` before installing on one specific machine where updates otherwise fail with error 1603 — edit or remove it if it stops being relevant.
+```json
+{
+    "id": "6e0a452e4be74b249d597dfc580032ca",
+    "label": "Ministero della Cultura - 1800 assistenti",
+    "url": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=6e0a452e4be74b249d597dfc580032ca"
+}
+```
+
+- `id`: the `concorso_id` extracted from the page URL — this is the stable key used to track state over time; don't change it once the competition is already being monitored, or the history will be lost (it will simply be treated as a "first detection", with no alert, on the next run);
+- `label`: human-readable name shown in Telegram messages;
+- `url`: the full URL of the detail page.
+
+**Warning**: when a `concorso_id` no longer exists (the notice has concluded and been removed from the portal), inPA doesn't respond with an error but silently redirects to some other page. The monitor detects this by comparing the final `concorso_id` with the expected one and reports it as an error (see below), instead of mistakenly tracking the wrong content.
 
 ## Error notifications
 
-If the download page is unreachable for **two consecutive checks**, a separate Telegram notification is sent. The two-check threshold avoids alerting on a single transient issue, while still flagging a persistent problem within about ten hours. When the page becomes reachable again, a recovery notification is sent.
+If a competition is unreachable (site down, network issue, expired/redirected concorso_id) for **two consecutive checks**, a separate Telegram notification is sent. The two-check threshold avoids alerting on a single transient issue (a momentary timeout), while still flagging a persistent problem within about ten hours. When the competition becomes reachable again, a recovery notification is sent.
 
 The threshold can be configured by changing `ERROR_NOTIFY_THRESHOLD` in `monitor.py`.
 
 ## Heartbeat notifications
 
-To confirm that the monitor is still running correctly even when there's no new update to report, the workflow sends a periodic Telegram heartbeat every 7 days (configurable through `HEARTBEAT_DAYS`).
+To confirm that the monitor is still running correctly even when no competitions change, the workflow sends a periodic Telegram heartbeat every 7 days (configurable through `HEARTBEAT_DAYS`).
 
 The heartbeat includes:
 
 - date and time of the latest successful check;
-- update number currently tracked;
-- days since the monitor started running.
+- number of monitored competitions;
+- days since the previous heartbeat;
+- date since the monitor has been running.
+
+Heartbeat information is stored in `heartbeat.json`, which is automatically updated and committed together with `state.json`.
 
 ## Notes
 
-- `state.json` is overwritten and automatically committed by the workflow on every run, to preserve monitoring history between runs.
-- `state.json` ships pre-filled with the version known at the time this repository was created, so the first scheduled run won't silently skip notifying about the *next* update — it starts comparing right away instead of first needing a baseline run.
+- `state.json` and `heartbeat.json` are overwritten and automatically committed by the workflow on every run, to preserve monitoring history between runs.
+- The dependencies in `requirements.txt` are not pinned to specific versions, to avoid conflicts with other projects in the local development environment.
 
 ## License
 
