@@ -13,7 +13,7 @@
       ]
     },
     "url": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=6e0a452e4be74b249d597dfc580032ca",
-    "checked": "2026-08-27T23:07:48.273867",
+    "checked": "2026-08-28T11:48:58.414590",
     "consecutive_errors": 0,
     "error_notified": false
   },
@@ -89,7 +89,7 @@
       ]
     },
     "url": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=64051e592a564f5fabce426c0816bb27",
-    "checked": "2026-08-27T23:07:50.051158",
+    "checked": "2026-08-28T11:48:59.942508",
     "consecutive_errors": 0,
     "error_notified": false
   },
@@ -156,7 +156,7 @@
       ]
     },
     "url": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=3be442a291a94827800da7351b3c3afd",
-    "checked": "2026-08-27T23:07:51.518768",
+    "checked": "2026-08-28T11:49:01.090288",
     "consecutive_errors": 0,
     "error_notified": false
   },
@@ -177,7 +177,7 @@
       ]
     },
     "url": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=3565096d8f164fc4a9c0db51ab470321",
-    "checked": "2026-08-27T23:07:52.645405",
+    "checked": "2026-08-28T11:49:02.365746",
     "consecutive_errors": 0,
     "error_notified": false
   },
@@ -189,12 +189,12 @@
       "allegati": []
     },
     "url": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=3a04611f65c747dfaae6537c9324ebf8",
-    "checked": "2026-08-27T23:07:53.671652",
+    "checked": "2026-08-28T11:49:03.440161",
     "consecutive_errors": 0,
     "error_notified": false
   },
   "ce55ceb6dbba48f38ecb0500284a61cc": {
-    "hash": "f0fb1382604b7039566ad1c9b53f101babd0fc6e8f6db63419f4f3e56ca9e1cf",
+    "hash": "42f1bd8beb3bf20e760d62ba302a38a434a18381f73a83f780ded8a802348832",
     "signal": {
       "stato": "Chiuso",
       "aggiornamenti": [
@@ -212,6 +212,7 @@
         "Aggiornamento del 16.01.2026: Pubblicate le FAQ aggiornate",
         "Aggiornamento del 18.06.2026: Pubblicato il D.D.G. n. 3323 del 18/06/2026 con il quale si è proceduto alla nomina del Componente aggiuntivo per la valutazione della lingua inglese della commissione esaminatrice competente per il codice di concorso SMSL , a seguito della rinuncia del Componente precedentemente nominato. Aggiornamento 19.06.2026: Si comunica che le lettere di partecipazione alla prova scritta verranno inviate in data odierna a tutti i candidati. Coloro i quali non riceveranno la lettera di partecipazione, potranno richiederla nel giorno di svolgimento della prova presso la sede concorsuale.",
         "Aggiornamento del 26.06.2026: Pubblicato, nella sezione allegati, il Decreto di nomina dei Comitati di Vigilanza presso la sede concorsuale di Catania ai fini dell’espletamento delle prove relative ai Concorsi pubblici indetti dall’Amministrazione Regionale Siciliana con D.D.G. nn. 6300 e 6301 del 23/12/2025 – codici ISPAM, ISPTEC, SAC, SMSL e SIST",
+        "Aggiornamento del 28.08.2026: Pubblicato, nella sezione allegati, l’avviso di convocazione e il diario d’esame alla prova scritta asincrona in relazione a codici di concorso SMSL , SAC , SIST . Aggiornamento della pubblicazione degli esiti della prova scritta per i codici di concorso SMSL e SIST . Gli esiti sono consultabili nell’area riservata nella sezione “comunicazioni/aggiornamenti“. Tutti i candidati possono inoltre, visualizzare il punteggio della prova nella sezione “esito prova“.",
         "Aggiornamento del 29.05.2026: Pubblicato il D.D.G. n. 2912 del 28/05/2026 con il quale si è proceduto alla nomina di un Componente ordinario Effettivo della commissione esaminatrice competente per il codice di concorso SIST , a seguito della rinuncia del Componente ordinario Effettivo precedentemente nominato",
         "Aggiornamento del 29.05.2026: Pubblicato il D.D.G. n. 2913 del 28/05/2026 con il quale si è proceduto alla nomina di un Componente Aggiuntivo Effettivo per la valutazione delle conoscenze informatiche e digitali della commissione esaminatrice competente per il codice di concorso SAC , a seguito della rinuncia del Componente Aggiuntivo Effettivo precedentemente nominato"
       ],
@@ -225,6 +226,7 @@
         "DDG_3323_del_18.06.26_avvicendamento componente aggiuntivo di lingua inglese SMLS.pdf (Pubblicato il 18 Giugno 2026  16:09)",
         "Decreto componente ordinario Commissione SIST.pdf (Pubblicato il 29 Maggio 2026  06:59)",
         "Decreto nomina componente informatica commissione SAC.pdf (Pubblicato il 29 Maggio 2026  07:00)",
+        "Diario d’esame prova scritta asincrona CPI.pdf (Pubblicato il 28 Agosto 2026  10:35)",
         "Diario d’esame prova scritta.pdf (Pubblicato il 09 Giugno 2026  12:19)",
         "FAQ aggiorante al 16.01.2026.pdf (Pubblicato il 16 Gennaio 2026  09:19)",
         "FAQ.pdf (Pubblicato il 12 Gennaio 2026  12:11)",
@@ -234,7 +236,7 @@
       ]
     },
     "url": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=ce55ceb6dbba48f38ecb0500284a61cc",
-    "checked": "2026-08-27T23:07:54.742525",
+    "checked": "2026-08-28T11:49:04.401716",
     "consecutive_errors": 0,
     "error_notified": false
   },
@@ -261,7 +263,7 @@
       ]
     },
     "url": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=5e6e0ebdf8c245ec898e18452a207576",
-    "checked": "2026-08-27T23:07:56.009077",
+    "checked": "2026-08-28T11:49:05.290928",
     "consecutive_errors": 0,
     "error_notified": false
   },
@@ -295,7 +297,7 @@
       ]
     },
     "url": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=2479a6e7761b48f2be7fa54b3699cb98",
-    "checked": "2026-08-27T23:07:57.343286",
+    "checked": "2026-08-28T11:49:06.502912",
     "consecutive_errors": 0,
     "error_notified": false
   },
@@ -312,7 +314,7 @@
       ]
     },
     "url": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=745992ffeca6489b87088b986f0c04ee",
-    "checked": "2026-08-27T23:07:58.688366",
+    "checked": "2026-08-28T11:49:07.429448",
     "consecutive_errors": 0,
     "error_notified": false
   }
