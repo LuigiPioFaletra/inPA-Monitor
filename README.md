@@ -70,7 +70,7 @@ Competitions currently listed in `urls.json`:
 - [CEFPAS Sicilia - 5 assistenti categoria C](https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=5e6e0ebdf8c245ec898e18452a207576)
 - [RIPAM - 3997 assistenti (multi-amministrazione)](https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=2479a6e7761b48f2be7fa54b3699cb98)
 - [INPS - 248 assistenti informatici](https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=745992ffeca6489b87088b986f0c04ee)
-- [ASMEL 2026 - Istruttore Informatico](https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=de84971ad8794b8ab62112c77c0f06ea)
+- [Maxi Avviso ASMEL 2026 - 39 elenchi di idonei](https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=de84971ad8794b8ab62112c77c0f06ea)
 
 ## Adding or removing a competition
 
