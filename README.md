@@ -57,9 +57,24 @@ Without these two secrets, the script prints "Telegram non configurato" and send
 
 The workflow runs at 10:00 and 22:00 Italian time (cron `0 8,20 * * *`, calculated for summer daylight saving time UTC+2; in winter the actual local time will be 9:00/21:00, since GitHub Actions always runs in UTC and doesn't automatically adjust for daylight saving changes). It can also be triggered manually from the Actions tab ("Run workflow").
 
+## Monitored competitions
+
+Competitions currently listed in `urls.json`:
+
+- [Ministero della Cultura - 1800 assistenti](https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=6e0a452e4be74b249d597dfc580032ca)
+- [Piccoli Comuni - funzionari (135/178 unita')](https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=64051e592a564f5fabce426c0816bb27)
+- [Ministero della Giustizia - 2970 unita'](https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=3be442a291a94827800da7351b3c3afd)
+- [Maxi Avviso ASMEL 2025 - 37 elenchi di idonei](https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=3565096d8f164fc4a9c0db51ab470321)
+- [Banca d'Italia - 160 assunzioni](https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=3a04611f65c747dfaae6537c9324ebf8)
+- [CPI Regione Sicilia - 200 unita'](https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=ce55ceb6dbba48f38ecb0500284a61cc)
+- [CEFPAS Sicilia - 5 assistenti categoria C](https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=5e6e0ebdf8c245ec898e18452a207576)
+- [RIPAM - 3997 assistenti (multi-amministrazione)](https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=2479a6e7761b48f2be7fa54b3699cb98)
+- [INPS - 248 assistenti informatici](https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=745992ffeca6489b87088b986f0c04ee)
+- [ASMEL 2026 - Istruttore Informatico](https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=de84971ad8794b8ab62112c77c0f06ea)
+
 ## Adding or removing a competition
 
-Edit `urls.json`, which is a list of objects with this structure:
+Edit `urls.json` (and keep the list above in sync), which is a list of objects with this structure:
 
 ```json
 {
