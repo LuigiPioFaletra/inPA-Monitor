@@ -13,7 +13,7 @@
       ]
     },
     "url": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=6e0a452e4be74b249d597dfc580032ca",
-    "checked": "2026-09-23T20:08:14.777192",
+    "checked": "2026-09-24T08:11:24.727891",
     "consecutive_errors": 0,
     "error_notified": false
   },
@@ -97,7 +97,7 @@
       ]
     },
     "url": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=64051e592a564f5fabce426c0816bb27",
-    "checked": "2026-09-23T20:08:16.296853",
+    "checked": "2026-09-24T08:11:26.514593",
     "consecutive_errors": 0,
     "error_notified": false
   },
@@ -164,7 +164,7 @@
       ]
     },
     "url": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=3be442a291a94827800da7351b3c3afd",
-    "checked": "2026-09-23T20:08:17.650920",
+    "checked": "2026-09-24T08:11:28.181537",
     "consecutive_errors": 0,
     "error_notified": false
   },
@@ -185,7 +185,7 @@
       ]
     },
     "url": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=3565096d8f164fc4a9c0db51ab470321",
-    "checked": "2026-09-23T20:08:18.759252",
+    "checked": "2026-09-24T08:11:29.485632",
     "consecutive_errors": 0,
     "error_notified": false
   },
@@ -197,7 +197,7 @@
       "allegati": []
     },
     "url": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=3a04611f65c747dfaae6537c9324ebf8",
-    "checked": "2026-09-23T20:08:19.921740",
+    "checked": "2026-09-24T08:11:30.837773",
     "consecutive_errors": 0,
     "error_notified": false
   },
@@ -247,7 +247,7 @@
       ]
     },
     "url": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=ce55ceb6dbba48f38ecb0500284a61cc",
-    "checked": "2026-09-23T20:08:20.917397",
+    "checked": "2026-09-24T08:11:32.061446",
     "consecutive_errors": 0,
     "error_notified": false
   },
@@ -274,12 +274,12 @@
       ]
     },
     "url": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=5e6e0ebdf8c245ec898e18452a207576",
-    "checked": "2026-09-23T20:08:21.920248",
+    "checked": "2026-09-24T08:11:33.393452",
     "consecutive_errors": 0,
     "error_notified": false
   },
   "2479a6e7761b48f2be7fa54b3699cb98": {
-    "hash": "ee972dee2808a2afc2af258acb01d186c387d142c07513dbd6375aa63c3db10a",
+    "hash": "0d795785577320ac540c3425e67af8ade9bf54ae83deecba85619cd3cf56748e",
     "signal": {
       "stato": "Chiuso",
       "aggiornamenti": [
@@ -291,12 +291,15 @@
         "Aggiornamento del 16.01.2026: Pubblicate le FAQ",
         "Aggiornamento del 17.07.2026: Pubblicata la delibera n. 27 di nomina per la Commissione e la delibera n. 29 di nomina dei Comitati di vigilanza .",
         "Aggiornamento del 23.07.2026: Pubblicati sulla piattaforma Concorsi Smart gli esiti delle prove scritte dei codici concorso INF, ECO e TEC . I candidati possono prenderne visione accedendo alla suddetta piattaforma con le proprie credenziali SPID.",
+        "Aggiornamento del 24.09.2026: Pubblicate le graduatorie dei vincitori dei codici di concorso TEC 01 – TEC 02 – TEC 03 approvate dalla Commissione RIPAM nella seduta del 23 settembre 2026. I candidati Vincitori/Idonei potranno visualizzare, accedendo all’Area riservata, nella sezione “Comunicazione/Aggiornamenti” del Portale inPA, i punteggi e le posizioni.",
         "Aggiornamento del 26.06.2026: Le prove scritte dei codici concorso assistenti economici ( codice ECO ), assistenti informatici ( codice INF ) ed assistenti tecnici ( codice TEC ) si svolgeranno il 22 luglio 2026 . Le prove scritte del codice concorso assistenti amministrativi (codice AMM) , si svolgeranno nelle giornate del 24 – 27- 28- 29 – 30 -31 luglio 2026 . A breve sarà pubblicato il calendario completo delle sedi di convocazione.",
         "Aggiornamento del 26.06.2026: Pubblicata, nella sezione allegati, la Delibera n. 14/2026 di nomina dei componenti delle commissioni esaminatrici"
       ],
       "allegati": [
         "Bando RIPAM – Assistenti 3997.pdf (Pubblicato il 23 Dicembre 2025  20:00)",
         "Codice AMM – Diario d’esame e istruzioni prova scritta.pdf (Pubblicato il 01 Luglio 2026  18:25)",
+        "Codice TEC 01_grad in area pubblica.pdf (Pubblicato il 24 Settembre 2026  09:20)",
+        "Codice TEC 03 Graduatoria finale.pdf (Pubblicato il 24 Settembre 2026  09:22)",
         "Codici ECO-INF-TEC – Diario d’esame e istruzioni prova scritta.pdf (Pubblicato il 01 Luglio 2026  18:25)",
         "Comunicazione cambi sede e lettera di partecipazione.pdf (Pubblicato il 01 Luglio 2026  18:25)",
         "Comunicazione per le candidate in stato di gravidanza.pdf (Pubblicato il 01 Luglio 2026  18:25)",
@@ -305,11 +308,12 @@
         "Delibera n. 23 del 2026.pdf (Pubblicato il 08 Luglio 2026  17:13)",
         "Delibera n. 27 del 2026 – Nomina Commissione Esaminatrice.pdf (Pubblicato il 17 Luglio 2026  12:56)",
         "Delibera n. 29 del 2026 – Nomina dei Comitati di Vigilanza.pdf (Pubblicato il 17 Luglio 2026  12:57)",
-        "FAQ.pdf (Pubblicato il 16 Gennaio 2026  15:04)"
+        "FAQ.pdf (Pubblicato il 16 Gennaio 2026  15:04)",
+        "TEC 02 Graduatoria finale.pdf (Pubblicato il 24 Settembre 2026  09:21)"
       ]
     },
     "url": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=2479a6e7761b48f2be7fa54b3699cb98",
-    "checked": "2026-09-23T20:08:23.069096",
+    "checked": "2026-09-24T08:11:34.997552",
     "consecutive_errors": 0,
     "error_notified": false
   },
@@ -326,7 +330,7 @@
       ]
     },
     "url": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=745992ffeca6489b87088b986f0c04ee",
-    "checked": "2026-09-23T20:08:24.334594",
+    "checked": "2026-09-24T08:11:36.248743",
     "consecutive_errors": 0,
     "error_notified": false
   }
